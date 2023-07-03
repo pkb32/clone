@@ -1,0 +1,317 @@
+*{
+    margin: 0; 
+    
+}
+
+.search{
+    align-content: center;
+}
+.container-fluid{
+    display: flex; 
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-evenly; /*mo pc re direct space evenly kama karunathila so eei sabu add kali*/
+   flex-wrap: wrap;
+  
+    
+}
+ .collapse{
+   background-color: #212529;
+  
+}
+.top{
+    margin: 0% 5px;
+}
+.navbar{
+   
+  
+   height: 66px;
+  
+}
+.borders{
+    border: 1.5px solid transparent;
+}
+.borders:hover{
+    border:1.5px solid white;
+}
+.searchnav{
+    margin-top: 0.5%;
+    
+}
+
+
+.hello{
+    font-size: 0.8rem;
+    padding-left: 20px;
+    color: #cccccc;
+    
+
+}
+.nav-colr{
+
+    display: flex;
+   flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.nav-search{
+   display: flex; /* gote line re anibaku mane jadi gote jinsa same div re achi so taku gote line re anibaku hele flex use karibu*/ 
+   justify-content: space-evenly; /*evenly spread out karibaku*/
+   width: 45rem;
+   height: 2.5rem;
+   border-radius: 5px;
+   margin-top: 5px;
+ 
+   
+}
+.nav-search:hover{
+    border: 2px solid #febd68;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:3.2rem;
+    text-align: center ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none; 
+      
+}
+
+.search-icon{
+    width: 3rem;
+    border: none;
+    display: flex;
+    justify-content: center; /* horizontal allign*/
+    align-items: center; /*vertical allign*/
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2rem;
+}
+.shopping-cart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.hello1{
+    font-size: 0.8rem;
+}
+.hello2{
+    font-size: 1rem;
+}
+
+.en{
+       height: 3.7rem;
+       padding: 9px 0px;
+}
+
+.shopping-cart i {
+    font-size: 35px;
+}
+
+.panel{
+    color: #cccccc;
+    margin-top: 4.12rem;
+    background-color: #222f3d;
+    height: 39px; 
+    display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-evenly; /*mo pc re direct space evenly kama karunathila so eei sabu add kali*/
+   flex-wrap: wrap;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 75%  ;
+    font-size: 0.85rem ;
+    margin-left: 0;
+}
+.panel-deals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.carousel{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+     
+    background-color: white;
+    height: 40px;
+    display: flex;
+    font-size: 0.85rem ;
+    width: 95%;
+    bottom: 15rem; 
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1%;
+    margin: auto;
+
+}
+
+.msg  a{
+     color: #007185;
+     text-decoration:none;
+}
+.shoping-section{
+   
+    z-index: 5;
+    display: flex;
+    position: relative;
+    bottom: 12rem; 
+    margin: 0% 3%;
+    
+    
+
+}
+
+.shoping-section h3{
+
+    font-size: 1.5rem;
+}
+
+.shoping-section a{
+       
+    color: #007185;
+     text-decoration:none;
+
+}
+
+.card-left-top,.card-middle-top,.card-right-top,.card-rightmost-top,.card-left-bottom,.card-middle-bottom,.card-right-bottom,.card-rightmost-bottom{
+    text-align: center;
+    border-radius: 10%;
+    height: 358px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 2% 0%;
+     
+     
+}
+.edit-card-right-top,.edit-card-middle-top,.edit-card-left-top,.edit-card-rightmost-top,.edit-card-right-bottom,.edit-card-middle-bottom,.edit-card-left-bottom,.edit-card-rightmost-bottom{
+
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom:  5% ;
+    border-radius: 2%;
+    
+    
+    
+}
+.edit-card-right-top img,.edit-card-middle-top img ,.edit-card-left-top img,.edit-card-rightmost-top img, .edit-card-right-bottom img,.edit-card-middle-bottom img ,.edit-card-left-bottom img,.edit-card-rightmost-bottom img  {
+    
+    width:21rem;
+}
+.shoping-section p{
+    text-align: left;
+    padding-top: 1% ;
+}
+
+.row{
+
+    background-image: linear-gradient(rgb(236, 245, 242),rgb(241, 240, 240),rgb(201, 225, 226),rgb(207, 207, 200),rgb(201, 194, 194),rgb(195, 211, 223),rgb(182, 183, 187),rgb(170, 172, 164),rgb(141, 145, 143),white);
+    
+}
+
+.foot-panel1{
+
+    background-color: #37575a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel1:hover{
+    background-color: #5d9398;
+}
+.foot-panel2{
+    padding-top: 2%;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.foot-panel2 ul a {
+    
+    display: block;
+    text-decoration:none;
+    color: #DDDDDD;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0%;
+    border-top: 0.5px solid rgb(172, 172, 172);
+    height: 5rem;
+}
+.foot-panel31{
+    display: flex;
+    justify-content: center;
+}
+
+.foot-panel3 button{
+
+    border: 1.5px solid white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 2rem;
+    margin-left: 2%;
+}
+.foot-panel3 button:hover{
+    background-color: #DDDDDD;
+}
+
+.creator p{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    
+    -webkit-text-fill-color: transparent;
+}
+.foot-panel4{
+     background-color: #18202a;
+     color: #DDDDDD;
+     height: auto;
+     width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 1%;
+}
+
+.identity{
+    
+    display: flex;
+    position: absolute;
+    margin-left: 67rem;
+    top:116.8rem;
+  
+   
+    
+    
+}
+
+
+
+
